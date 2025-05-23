@@ -1,5 +1,5 @@
 class Kamal::Cli::App::ErrorPages
-  ERROR_PAGES_GLOB = "{4??.html,5??.html}"
+  ERROR_PAGES_GLOB = "{4??.html,5??.html,4??.json,5??.json}"
 
   attr_reader :host, :sshkit
   delegate :upload!, :execute, to: :sshkit
